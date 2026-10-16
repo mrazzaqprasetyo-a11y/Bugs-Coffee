@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bugs Coffee</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css"
+    />
+    <style></style>
+  </head>
+  <body>
+    <nav class="navbar sm:navbar-expand bg-warning fg-2 py-5 fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#"
+          >Bugs C<i class="bi bi-bug-fill"></i>ffee</a
+        >
+        <button
+          class="btn-icon navbar-toggler"
+          type="button"
+          data-bs-toggle="drawer"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+        <dialog
+          class="drawer drawer-end"
+          tabindex="-1"
+          id="navbarNav"
+          aria-labelledby="navbarNavLabel"
+        >
+          <div class="drawer-header">
+            <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="drawer"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="drawer-body">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reservasi">Reservasi</a>
+              </li>
+            </ul>
+          </div>
+        </dialog>
+      </div>
+    </nav>
+    <selection style="margin-top: 70px" class="hero">
+      <div class="container py-12" style="margin-top: 70px">
+        <div class="row g-6 align-items-center">
+          <div class="col-12 md:col-6 bg-suc">
+            <h1 class="fw-bold pe-5">Secangkir Kopi,Sejuta Cerita</h1>
+            <p class="md">
+              Nikmati kopi berkualitas dengan aroma khas dan rasa yang
+              istimewa.Bugs Coffee menjadi tempat yang nyaman untuk
+              bersantai,berkumpul bersama teman,dan menikmati setiap momen
+              dengan secangkir kopi.
+            </p>
+            <a href="#reservasi" type="button" class="btn-solid theme-warning">
+              Pesan Meja
+            </a>
+            <a href="#menu" type="button" class="btn-outline theme-warning">
+              Lihat Menu
+            </a>
+          </div>
+          <div class="col-12 md:col-6">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1661422155770-2d8fd2e6645f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+              alt="Gambar"
+              class="w-100 rounded-9"
+            />
+          </div>
+        </div>
+      </div>
+    </selection>
+    <section id="about" class="About py-12 bg-subtle-warning">
+      <section class="container py-12">
+        <div class="text-center fw-bold mb-6">
+          <h4 class="fg-warning fw-bold">ABOUT US</h4>
+          <h2 class="fw-bold">Tempat Terbaik untuk Menikmati Kopi</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <p class="fs-md" style="text-align: justify">
+              Bugs Coffee adalah tempat yang nyaman untuk menikmati kopi bersama
+              teman, keluarga , maupun rekan kerja.Kami menyajikan kopi
+              berkualitas dengan rasa yang nikmat dan pelayanan yang ramah.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="menu" class="About py-8">
+      <section class="container py-10">
+        <div class="text-center fw-bold mb-6">
+          <h4 class="fg-warning fw-bold">PILIHAN REKOMENDASI</h4>
+          <h2 class="fw-bold">
+            Menu Favorit Bugs C<i class="bi bi-bug-fill"></i>ffee
+          </h2>
+        </div>
+      </section>
+    </section>
+
+    <div class="row g-6">
+      <div class="col-12 md:col-4">
+        <div class="card h-100">
+          <img
+            src="https://images.unsplash.com/photo-1506372023823-741c83b836fe?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            class="card-img-top"
+            alt="..."
+            style="height: 200px; object-fit: cover"
+          />
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <p class="fw-bold fg-black">Latte</p>
+              <p class="fw-bold fg-warning">Rp 25.000</p>
+            </div>
+            <p class="card-text">
+              Perpaduan espresso dan susu creamy dengan rasa lembut yang cocok
+              untuk dinikmati kapan saja.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 md:col-4">
+        <div class="card h-100">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1674327105074-46dd8319164b?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            class="card-img-top"
+            alt="..."
+            style="height: 200px; object-fit: cover"
+          />
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <p class="fw-bold fg-black">Cappuccino</p>
+              <p class="fw-bold fg-warning">Rp 22.000</p>
+            </div>
+            <p class="card-text">
+              Kopi espresso dengan susu berbusa yang menghasilkan rasa seimbang
+              dan aroma kopi yang khas.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 md:col-4">
+        <div class="card h-100">
+          <img
+            src="https://images.unsplash.com/photo-1551030173-122aabc4489c?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            class="card-img-top"
+            alt="..."
+            style="height: 200px; object-fit: cover"
+          />
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <p class="fw-bold fg-black">Americano</p>
+              <p class="fw-bold fg-warning">Rp 18.000</p>
+            </div>
+            <p class="card-text">
+              Kopi hitam dengan cita rasa kuat dan aroma khas , cocok untuk
+              pecinta kopi tanpa susu.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 md:col-4">
+        <div class="card h-100">
+          <img
+            src="https://images.unsplash.com/photo-1662047102608-a6f2e492411f?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            class="card-img-top"
+            alt="..."
+            style="height: 200px; object-fit: cover"
+          />
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <p class="fw-bold fg-black">Caramel Macchiato</p>
+              <p class="fw-bold fg-warning">Rp 28.000</p>
+            </div>
+            <p class="card-text">
+              Perpaduan espresso, susu, dan karamel dengan rasa manis yang
+              nikmat.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 md:col-4">
+        <div class="card h-100">
+          <img
+            src="https://images.unsplash.com/photo-1785037358154-1c32247ee9da?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            class="card-img-top"
+            alt="..."
+            style="height: 200px; object-fit: cover"
+          />
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <p class="fw-bold fg-black">Mocha</p>
+              <p class="fw-bold fg-warning">Rp 27.000</p>
+            </div>
+            <p class="card-text">
+              Kombinasi kopi espresso dan coklat yang menghadirkan rasa manis
+              serta aroma yang menggugah selera.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 md:col-4">
+        <div class="card h-100">
+          <img
+            src="https://images.unsplash.com/photo-1766426910014-63a302fa137e?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+            class="card-img-top"
+            alt="..."
+            style="height: 200px; object-fit: cover"
+          />
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <p class="fw-bold fg-black">Matcha Latte</p>
+              <p class="fw-bold fg-warning">Rp 25.000</p>
+            </div>
+            <p class="card-text">
+              Perpaduan matcha dan susu dengan rasa lembt yang menyegarkan bagi
+              pecinta minuman non kopi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="reservasi">
+      <div class="container py-12">
+        <h4 class="fg-warning fw-bold text-center">RESERVASI MEJA</h4>
+        <h2 class="fw-bold text-center">Amankan Tempat Favorit Anda</h2>
+        <p class="text-center fs-md">
+          Isi form berikut untuk melakukan pemesanan tempat dengan cepat
+        </p>
+
+        <div class="row g-6">
+          <div class="col-12 md:col-4">
+            <form>
+              <label for="exampleFormControlInput" class="form-label mb-2"
+                >Nama Lengkap</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput"
+                placeholder="Masukkan Nama"
+              />
+              <label for="exampleFormControlInput" class="form-label mb-2"
+                >Nomor WhatsApp</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput"
+                placeholder="Masukkan Nomor"
+              />
+              <label for="exampleFormControlInput" class="form-label mb-2"
+                >Tanggal & Waktu</label
+              >
+              <input
+                type="datetime-local"
+                class="form-control"
+                id="exampleFormControlInput"
+                placeholder="Waktu"
+              />
+
+              <div class="form-field mb-6">
+                <label for="exampleFormControlSelect2" class="form-label"
+                  >Jumlah Orang</label
+                >
+                <select class="form-control" id="exampleFormControlSelect2">
+                  <option>Pilih Jumlah</option>
+                  <option value="1">1 Orang</option>
+                  <option value="2">2-5 Orang</option>
+                  <option value="3">Lebih Dari 5 Orang</option>
+                </select>
+              </div>
+              <button type="button" class="btn-solid theme-warning w-100">
+                Kirim Reservasi
+              </button>
+            </form>
+          </div>
+
+          <div class="col-12 md:col-8 align-items-center">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.8882158655992!2d110.37900911744387!3d-7.801657799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a579ceebe1279%3A0x7808ad25aa525803!2sSMTI%20Yogyakarta%20Vocational%20High%20School!5e0!3m2!1sen!2sid!4v1792049398863!5m2!1sen!2sid"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+              class="w-100 rounded-6"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-warning py-6">
+      <footer class="fs-md text-center">
+        <i class="bi bi-c-circle"></i>2026 | Muhammd Razzaq
+      </footer>
+    </section>
+
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
